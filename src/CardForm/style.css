@@ -1,0 +1,65 @@
+.card-form-wrapper {
+  width: 800px;
+  margin: 150px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.card-form-wrapper h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 500;
+}
+.card-form {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.card-form h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.card-form span {
+  display: flex;
+  padding: 4px;
+  padding-left: 12px;
+  font-size: 12px;
+  color: rgb(218, 102, 98);
+}
+.card-form #cardName, #cardNumber {
+  width: 100%;
+  padding: 5px 10px;
+}
+.card-form #month {
+  width: 40px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.card-form #year {
+  padding: 5px 10px;
+  width: 70px;
+  margin-right: 10px;
+}
+.card-form #cvc {
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.submitButton {
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: rgb(0, 123, 177);
+  cursor: pointer;
+}
+.message {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
